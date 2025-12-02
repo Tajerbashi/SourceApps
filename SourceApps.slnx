@@ -1,3 +1,29 @@
 <Solution>
-  <Folder Name="/WCF/" />
+  <Folder Name="/WCF/">
+    <Project Path="WCF/WCFService/" Type="Website" DisplayName="WCFService(2)">
+      <BuildType Project="Debug" />
+      <Properties Name="WebsiteProperties">
+        <Property Name="Debug.AspNetCompiler.Debug" Value="&quot;True&quot;" />
+        <Property Name="Debug.AspNetCompiler.FixedNames" Value="&quot;false&quot;" />
+        <Property Name="Debug.AspNetCompiler.ForceOverwrite" Value="&quot;true&quot;" />
+        <Property Name="Debug.AspNetCompiler.PhysicalPath" Value="&quot;WCF\WCFService\&quot;" />
+        <Property Name="Debug.AspNetCompiler.TargetPath" Value="&quot;PrecompiledWeb\localhost_6604\&quot;" />
+        <Property Name="Debug.AspNetCompiler.Updateable" Value="&quot;true&quot;" />
+        <Property Name="Debug.AspNetCompiler.VirtualPath" Value="&quot;/localhost_6604&quot;" />
+        <Property Name="DefaultWebSiteLanguage" Value="&quot;Visual C#&quot;" />
+        <Property Name="Release.AspNetCompiler.Debug" Value="&quot;False&quot;" />
+        <Property Name="Release.AspNetCompiler.FixedNames" Value="&quot;false&quot;" />
+        <Property Name="Release.AspNetCompiler.ForceOverwrite" Value="&quot;true&quot;" />
+        <Property Name="Release.AspNetCompiler.PhysicalPath" Value="&quot;WCF\WCFService\&quot;" />
+        <Property Name="Release.AspNetCompiler.TargetPath" Value="&quot;PrecompiledWeb\localhost_6604\&quot;" />
+        <Property Name="Release.AspNetCompiler.Updateable" Value="&quot;true&quot;" />
+        <Property Name="Release.AspNetCompiler.VirtualPath" Value="&quot;/localhost_6604&quot;" />
+        <Property Name="TargetFrameworkMoniker" Value="&quot;.NETFramework,Version%3Dv4.8.1&quot;" />
+        <Property Name="VWDPort" Value="&quot;6604&quot;" />
+      </Properties>
+    </Project>
+    <Project Path="WCF/WCFServiceApplication/WCFServiceApplication.csproj" Id="a57af62f-f605-46cf-93cb-3e27e049cf60" />
+    <Project Path="WCF/WcfServiceLibrary/WcfServiceLibrary.csproj" Id="013dfdc3-4df1-4890-b1c1-5ad987865fea" />
+    <Project Path="WCF/WcfServiceWebApi/WcfServiceWebApi.csproj" Id="c0f5406e-529e-46a6-bb38-b22cf3eed815" />
+  </Folder>
 </Solution>
