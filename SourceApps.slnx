@@ -1,5 +1,1 @@
-<Solution>
-  <Project Path="SourceApps.AppHost/SourceApps.AppHost.csproj" />
-  <Project Path="SourceApps.ServiceDefaults/SourceApps.ServiceDefaults.csproj" />
-  <Project Path="WaitingApp/WaitingApp.csproj" />
-</Solution>
+<Solution />
