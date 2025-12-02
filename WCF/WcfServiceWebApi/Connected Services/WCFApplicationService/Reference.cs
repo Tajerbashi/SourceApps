@@ -79,6 +79,12 @@ namespace WCFApplicationService
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetData", ReplyAction="http://tempuri.org/IService1/GetDataResponse")]
         System.Threading.Tasks.Task<string> GetDataAsync(int value);
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GeneratePDF", ReplyAction="http://tempuri.org/IService1/GeneratePDFResponse")]
+        string GeneratePDF(long appointmentId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GeneratePDF", ReplyAction="http://tempuri.org/IService1/GeneratePDFResponse")]
+        System.Threading.Tasks.Task<string> GeneratePDFAsync(long appointmentId);
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetDataUsingDataContract", ReplyAction="http://tempuri.org/IService1/GetDataUsingDataContractResponse")]
         WCFApplicationService.CompositeType GetDataUsingDataContract(WCFApplicationService.CompositeType composite);
         
@@ -144,6 +150,16 @@ namespace WCFApplicationService
         public System.Threading.Tasks.Task<string> GetDataAsync(int value)
         {
             return base.Channel.GetDataAsync(value);
+        }
+        
+        public string GeneratePDF(long appointmentId)
+        {
+            return base.Channel.GeneratePDF(appointmentId);
+        }
+        
+        public System.Threading.Tasks.Task<string> GeneratePDFAsync(long appointmentId)
+        {
+            return base.Channel.GeneratePDFAsync(appointmentId);
         }
         
         public WCFApplicationService.CompositeType GetDataUsingDataContract(WCFApplicationService.CompositeType composite)

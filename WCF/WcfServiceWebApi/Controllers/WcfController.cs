@@ -28,6 +28,21 @@ namespace WcfServiceWebApi.Controllers
             }
         }
 
+        [HttpGet]
+        [Route("GeneratePDF/{appointmentId}")]
+        public IActionResult GeneratePDF(long appointmentId)
+        {
+            try
+            {
+                string result = _wcfClient.GeneratePDF(appointmentId);
+                return Ok(new { success = true, data = result });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
+        }
+
         // POST api/wcf/getdatacontract
         [HttpPost]
         [Route("getdatacontract")]

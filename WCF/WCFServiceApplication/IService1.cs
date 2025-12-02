@@ -16,6 +16,10 @@ namespace WCFServiceApplication
         [OperationContract]
         string GetData(int value);
 
+
+        [OperationContract]
+        string GeneratePDF(long appointmentId);
+
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
