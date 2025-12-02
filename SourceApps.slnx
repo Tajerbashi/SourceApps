@@ -1,28 +1,3 @@
 <Solution>
-  <Folder Name="/WCF/">
-    <Project Path="WCF/WCFService/" Type="Website" DisplayName="WCFService">
-      <BuildType Project="Debug" />
-      <Properties Name="WebsiteProperties">
-        <Property Name="Debug.AspNetCompiler.Debug" Value="&quot;True&quot;" />
-        <Property Name="Debug.AspNetCompiler.FixedNames" Value="&quot;false&quot;" />
-        <Property Name="Debug.AspNetCompiler.ForceOverwrite" Value="&quot;true&quot;" />
-        <Property Name="Debug.AspNetCompiler.PhysicalPath" Value="&quot;WCF\WCFService\&quot;" />
-        <Property Name="Debug.AspNetCompiler.TargetPath" Value="&quot;PrecompiledWeb\localhost_2677\&quot;" />
-        <Property Name="Debug.AspNetCompiler.Updateable" Value="&quot;true&quot;" />
-        <Property Name="Debug.AspNetCompiler.VirtualPath" Value="&quot;/localhost_2677&quot;" />
-        <Property Name="DefaultWebSiteLanguage" Value="&quot;Visual C#&quot;" />
-        <Property Name="Release.AspNetCompiler.Debug" Value="&quot;False&quot;" />
-        <Property Name="Release.AspNetCompiler.FixedNames" Value="&quot;false&quot;" />
-        <Property Name="Release.AspNetCompiler.ForceOverwrite" Value="&quot;true&quot;" />
-        <Property Name="Release.AspNetCompiler.PhysicalPath" Value="&quot;WCF\WCFService\&quot;" />
-        <Property Name="Release.AspNetCompiler.TargetPath" Value="&quot;PrecompiledWeb\localhost_2677\&quot;" />
-        <Property Name="Release.AspNetCompiler.Updateable" Value="&quot;true&quot;" />
-        <Property Name="Release.AspNetCompiler.VirtualPath" Value="&quot;/localhost_2677&quot;" />
-        <Property Name="TargetFrameworkMoniker" Value="&quot;.NETFramework,Version%3Dv4.8.1&quot;" />
-        <Property Name="VWDPort" Value="&quot;2677&quot;" />
-      </Properties>
-    </Project>
-    <Project Path="WCF/WCFServiceApplication/WCFServiceApplication.csproj" Id="06588b40-ae18-4014-8728-d7ea2959b59c" />
-    <Project Path="WCF/WCFServiceLibrary/WCFServiceLibrary.csproj" Id="fe567fdf-a6ac-49b0-8ffe-345e709245e6" />
-  </Folder>
+  <Folder Name="/WCF/" />
 </Solution>
