@@ -12,7 +12,7 @@ namespace WCFApplication
         string GetData(int value);
 
         [OperationContract]
-        string Generator(int appointmentId, string filePath);
+        string Generator(int appointmentId, string filePath, string fileName);
 
 
         [OperationContract]
