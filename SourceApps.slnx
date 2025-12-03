@@ -1,6 +1,10 @@
 <Solution>
+  <Folder Name="/StimulsoftGenerator/">
+    <Project Path="StimulsoftGenerator/WCFApplication/WCFApplication.csproj" Id="91da65b2-91c3-473b-9ea1-b9060ed12b69" />
+    <Project Path="StimulsoftGenerator/WCFWebApi/WCFWebApi.csproj" Id="cbd763ee-7704-44ce-888f-3ea5abb8da1f" />
+  </Folder>
   <Folder Name="/WCF/">
-    <Project Path="WCF/WCFService/" Type="Website" DisplayName="WCFService(2)">
+    <Project Path="WCF/WCFService/" Type="Website" DisplayName="WCFService">
       <BuildType Project="Debug" />
       <Properties Name="WebsiteProperties">
         <Property Name="Debug.AspNetCompiler.Debug" Value="&quot;True&quot;" />
